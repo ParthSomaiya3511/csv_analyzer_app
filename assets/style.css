@@ -1,0 +1,112 @@
+/* --------------------------------------------------
+GLOBAL
+-------------------------------------------------- */
+
+html, body, [class*="css"] {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f172a;
+    color: white;
+}
+
+/* --------------------------------------------------
+MAIN CONTAINER
+-------------------------------------------------- */
+
+.main {
+    background-color: #0f172a;
+    padding: 20px;
+}
+
+/* --------------------------------------------------
+TITLE
+-------------------------------------------------- */
+
+.title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
+
+/* --------------------------------------------------
+CARDS
+-------------------------------------------------- */
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* --------------------------------------------------
+SIDEBAR
+-------------------------------------------------- */
+
+section[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* --------------------------------------------------
+BUTTONS
+-------------------------------------------------- */
+
+.stButton > button {
+    width: 100%;
+    background-color: #38bdf8;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.stButton > button:hover {
+    background-color: #0ea5e9;
+    color: white;
+}
+
+/* --------------------------------------------------
+DATAFRAME
+-------------------------------------------------- */
+
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* --------------------------------------------------
+METRIC CARDS
+-------------------------------------------------- */
+
+.metric-card {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* --------------------------------------------------
+RESPONSIVE
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+    .title {
+        font-size: 28px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
